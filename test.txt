@@ -1,30 +1,29 @@
-﻿		{git安装，添加姓名邮箱}config
+﻿		{安装---<姓名><邮箱>}config
 $ git config --global user.name "Your Name"
 $ git config --global user.email "email@example.com"
 ---------------------------------
-		{版本库---新建文件夹，进入文件夹}mkdir cd
+		{初始库---<新建文件夹><进入文件夹><初始化管理>}
 $ mkdir learngit
 $ cd learngit
 $ pwd
 	/Users/michael/learngit
--------------------------------
-		{目录初始化---变成管理仓库} init
+				 （变成管理仓库）
 $ git init
 		Initialized empty Git repository in /Users/michael/learngit/.git/
 
 -------------------------------------------------------------
-		{添加文件---创建文件，提交仓库}	add  commit
+		{常用操作---<修改><提交>}
 $ git add test.txt
 $ git commit -m "wrote a test file"
 
-			/*多个文件一起提交
+			/*多个改动
 			$ git add file1.txt
 			$ git add file2.txt
 			$ git add file3.txt
 			$ git commit -m "add 3 files."*/
 
 -----------------------------
-		{修改文件后，status查看状态，diff查看详细}
+		{查看状态，<库文档变化><文档内容变化><版本日志>}
 $ git status
 		On branch master
 		nothing to commit, working directory clean
@@ -39,5 +38,6 @@ $ git log
 		 简化
 $ git log --pretty=oneline 
 -----------------------------
-		{版本回退git reset}
+		{<版本回退>}
 $ git reset --hard HEAD^
+		HEAD is now at fa5ec6a 添加版本回退内容
