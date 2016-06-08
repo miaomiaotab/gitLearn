@@ -38,6 +38,10 @@ $ git log
 		 简化
 $ git log --pretty=oneline 
 -----------------------------
-		{<版本回退>}
+		{版本回退--<当前hread><某版本hash><查看版本号>}
 $ git reset --hard HEAD^
 		HEAD is now at fa5ec6a 添加版本回退内容
+
+$ git reset --hard 4e8b0d0
+
+$ git reflog
