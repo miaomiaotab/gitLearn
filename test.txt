@@ -25,5 +25,19 @@ $ git commit -m "wrote a test file"
 
 -----------------------------
 		{修改文件后，status查看状态，diff查看详细}
+$ git status
+		On branch master
+		nothing to commit, working directory clean
 
+$ git diff
 
+$ git log
+		commit 9608ce5072b6095bcb29572add5c34d9965d305b
+		Author: miaomiaotab <568242201@qq.com>
+		Date:   Wed Jun 8 10:07:15 2016 +0800
+		    modify test.txt
+		 简化
+$ git log --pretty=oneline 
+-----------------------------
+		{版本回退git reset}
+$ git reset --hard HEAD^
