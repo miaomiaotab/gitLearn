@@ -55,3 +55,32 @@ git reset HEAD test.txt
 $ git rm test1.txt
 
 rm 'test1.txt'
+------------------------------
+		{远程仓库--(注册GitHub账号)<创建SSH Key>
+		(GitHub 账户设置sshkey页面添加)}
+$ ssh-keygen -t rsa -C "568242201@qq.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/Jeremy/.ssh/id_rsa): C:\fanyu_workplace\git_test\learngit\.ssh
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in C:\fanyu_workplace\git_test\learngit\.ssh.
+Your public key has been saved in C:\fanyu_workplace\git_test\learngit\.ssh.pub.
+The key fingerprint is:
+SHA256:8Xxu5W0r9HKxfW76UFKvZxOGHYEL35tMPYHSQf2332w 568242201@qq.com
+The key's randomart image is:
++---[RSA 2048]----+
+|            oo=. |
+|           o + o.|
+|        .   + o.=|
+|         +   oo=*|
+|        S o ..=+O|
+|           o +.@.|
+|            + =o@|
+|           . o OE|
+|              =B+|
++----[SHA256]-----+
+
+tabKey
+Fingerprint: e0:b3:cd:23:c0:57:bb:e1:f1:8d:ac:41:e2:30:6b:dc
+https://github.com/miaomiaotab/gitLearn.git
+----------------------------
